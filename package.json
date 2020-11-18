@@ -1,0 +1,33 @@
+{
+  "name": "project-kukarichka",
+  "version": "1.0.0",
+  "description": "homework #12 servise-food",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url .",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonzpwr/news-servise.git"
+  },
+  "author": "moonzpwr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonzpwr/news-servise/issues"
+  },
+  "homepage": "https://moonzpwr.github.io/news-servise/",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "newsapi": "^2.4.1",
+    "styles": "^0.2.1"
+  }
+}

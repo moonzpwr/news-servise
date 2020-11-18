@@ -1,0 +1,12 @@
+{{#each this}}
+<li class='aticles-item'>
+    <article>
+        <a href="{{url}}" target="_blank">
+            <div class='img-caontainer'><img src="{{urlToImage}}" alt="" class='aticles-img'></div>
+            <h2 class='aticles-heading'>{{title}}</h2>
+            <p class='aticles-description'>{{description}}</p>
+            <span class='aticles-date'>Date: {{publishedAt}}</span>
+        </a>
+    </article>
+</li>
+{{/each}}
